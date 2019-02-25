@@ -31,6 +31,13 @@ public class CourseScheduler {
         testTextbook.setPublisher("Made by Me");
         testTextbook.setEdition(1000);
         System.out.println(testTextbook.toString());
+        
+        Course testCourse = new Course();
+        testCourse.setName("New teacher");
+        testCourse.setSemester("Spring");
+        testCourse.setInstructor(testInstructor);
+        testCourse.setTextbook(testTextbook);
+        System.out.println(testCourse);
     }
     
 }
