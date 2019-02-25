@@ -23,6 +23,14 @@ public class CourseScheduler {
         test.setOfficeBuilding("ACB");
         test.setRoomNumber(900);
         System.out.println(test.toString());
+        
+        Textbook test2 = new Textbook();
+        System.out.println(test2.toString());
+        Textbook testTextbook = new Textbook();
+        testTextbook.setTitle("Title name");
+        testTextbook.setPublisher("Made by Me");
+        testTextbook.setEdition(1000);
+        System.out.println(testTextbook.toString());
     }
     
 }
